@@ -3,7 +3,7 @@
 
 
 ###运行环境：
-
+* Ubuntu14.04
 * python版本为2.7x
 * scrapy
 
@@ -16,7 +16,7 @@
 ```
 albumId = [[139011725,13]]
 ```
-修改后保存即可！
+修改后保存即可
 
 ####2.运行
 
@@ -28,5 +28,5 @@ scrapy crawl downloadspider
 运行完毕后，图片保存在`...\douban-image-scrapy\DownloadImage\Image`
 
 ###后期改进：
-* 自动检测相册页数，只要输入id即可
+* 自动检测相册页数
 * 按相册分类建文件夹存放图片
