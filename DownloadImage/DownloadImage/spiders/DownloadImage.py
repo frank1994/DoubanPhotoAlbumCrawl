@@ -21,10 +21,10 @@ class GetUrlSpider(BaseSpider):
     if not os.path.exists('./Image'):
         os.mkdir('./Image')
 
-    albumId = [[139011725,13]]
+    albumId = [[71097918,18]]
     start_urls = [];
     for [album,page] in albumId:
-    	for i in range(0,18*(page+1),18):
+        for i in range(0,18*(page+1),18):
                 start_urls.append('http://douban.com/photos/album/%d/?start=%d' % (album,i))
 
     def parse(self, response):
@@ -40,7 +40,7 @@ class GetUrlSpider(BaseSpider):
         return req
 
     def DownLload(self, response):
-    	str = response.url[0:-3];
+        str = response.url[0:-3];
         self.counter = self.counter+1
         str = str.split('/');
         print '----------------Image Get----------------',self.counter,str[-1],'jpg'
