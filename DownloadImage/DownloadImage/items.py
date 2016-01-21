@@ -3,7 +3,8 @@
 # See documentation in:
 # http://doc.scrapy.org/topics/items.html
 
-from scrapy.item import Item, Field
+from scrapy.item import Item
+
 
 class DownloadimageItem(Item):
     # define the fields for your item here like:

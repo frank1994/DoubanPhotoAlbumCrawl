@@ -11,13 +11,14 @@ env/
 build/
 develop-eggs/
 dist/
-downloads/
+DownloadImage/Image
 eggs/
 lib/
 lib64/
 parts/
 sdist/
 var/
+.idea/
 *.egg-info/
 .installed.cfg
 *.egg
