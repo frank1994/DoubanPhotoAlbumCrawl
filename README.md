@@ -23,6 +23,7 @@
 
 #### 1. 写入链接
 1. 将相册的地址写入`./DownloadImage/DownloadImage/spiders`的`LinkList.txt`中，写入后保存，每一行写一个相册链接。
+如： ![LinkList.txt](http://7xi5vu.com1.z0.glb.clouddn.com/2016-01-21-readmeLinkList.png?imageView/2/w/619/q/90)
 
 2. 修改后保存。
 
