@@ -10,7 +10,8 @@
 ![hungry](http://7xi5vu.com1.z0.glb.clouddn.com/2016-01-21-readmehungry.png?imageView/2/w/619/q/90)  
 ![wahaha](http://7xi5vu.com1.z0.glb.clouddn.com/2016-01-21-readmefinder_image.png?imageView/2/w/619/q/90)
 
-再推荐一个豆列吧：[传说中的表情包](http://www.douban.com/doulist/35796198/)
+再推荐一个豆列吧：[传说中的表情包](http://www.douban.com/doulist/35796198/)    
+  
 还等什么，一起来玩吧，hiahiahia
 
 ### 运行环境：
@@ -39,4 +40,4 @@ scrapy crawl downloadspider
 - [ ] 按相册分类建文件夹存放图片
 - [ ] 支持豆列形式的地址，即 https://www.douban.com/doulist/...形式的地址
 - [ ] 支持电影剧照，即 https://movie.douban.com/photos/photo/...形式的地址
-- []  ...
+- [ ]  ...
